@@ -81,37 +81,40 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Self-Employed",
+        "title": "Software Developer",
+        "years": "08.2022 - Present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Angular",
+          "JavaScript",
+          "Sass"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
+          "Node.js",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "jQuery",
+          "TypeScript",
+          "Java"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Ares Security",
+        "title": "General Manager | Co-Founder",
+        "years": "01.2021 - Present",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Connecteam",
+          "Microsoft Office",
+          "WordPress",
+          "Google Analytics",
+          "Google Ads",
+          "Google My Business",
+          "Google Search Console",
+          "SEO"
         ]
       }
     ]
