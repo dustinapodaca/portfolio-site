@@ -11,12 +11,12 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Upcoming 301 Project",
+        "startDate": "2022",
+        "description": "Project Info TBA",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Upcoming-Proj/UpcomingProject.jpg",
+          "images/portfolio/Upcoming-Proj/UpcomingProject.jpg"
         ],
         "url": "",
         "technologies": [
@@ -35,12 +35,12 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "HanGit",
+        "startDate": "2022",
+        "description": "HanGit is an interactive app, using the \"Hangman\" game as a model to help developers learn git commands. HanGit helps beginners with Git and GitHub in an interactive game format. The game is built with HTML, CSS and JavaScript and uses the web storage API localStorage to store the user's progress and track results.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/HanGit/HanGit-1.jpg",
+          "images/portfolio/HanGit/HanGit-2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
@@ -55,12 +55,12 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Gallery of Horned Beasts",
+        "startDate": "2022",
+        "description": "Project Info TBA",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/Horned-Beasts/HornedBeasts-1.jpg",
+          "images/portfolio/Horned-Beasts/HornedBeasts-2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
