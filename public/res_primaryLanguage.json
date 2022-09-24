@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Dustin Apodaca. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Dustin Apodaca. My passion is to develop innovative technologies utilizing blockchain in Web3 ecosystems while implementing eye-catching design elements into every part of my work. Currently, I'm working with newest front-end frameworks like Angular, React and Vue. My background in graphic design naturally means that at the core of my work and my passion lies in design- for making content look sleek and presentable in every aspect.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,134 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Upcoming 301 Project",
+        "startDate": "2022",
+        "description": "Project Info TBA",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/Upcoming-Proj/UpcomingProject.jpg",
+          "images/portfolio/Upcoming-Proj/UpcomingProject.jpg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
+            "class": "devicon-react-plain",
             "name": "React"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "Sass"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-express-original",
+            "name": "Express"
+          },
+          {
+            "class": "devicon-figma-plain",
+            "name": "Figma"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "HanGit",
+        "startDate": "2022",
+        "description": "HanGit is an interactive app, using the \"Hangman\" game as a model to help developers learn git commands. HanGit helps beginners with Git and GitHub in an interactive game format. The game is built with HTML, CSS and JavaScript and uses the web storage API localStorage to store the user's progress and track results.",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/HanGit/HanGit-1.jpg",
+          "images/portfolio/HanGit/HanGit-2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      },
+      {
+        "title": "Gallery of Horned Beasts",
+        "startDate": "2022",
+        "description": "Project Info TBA",
+        "images": [
+          "images/portfolio/Horned-Beasts/HornedBeasts-1.jpg",
+          "images/portfolio/Horned-Beasts/HornedBeasts-2.jpg"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-sass-plain",
+            "name": "Sass"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Self-Employed",
+        "title": "Software Developer",
+        "years": "08.2022 - Present",
         "mainTech": [
-          "Angular 8/9/10"
+          "React",
+          "Angular",
+          "JavaScript",
+          "Sass"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
-          "JavaScript",
+          "Node.js",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "jQuery",
+          "TypeScript",
+          "Java"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Ares Security",
+        "title": "General Manager | Co-Founder",
+        "years": "01.2021 - Present",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Connecteam",
+          "Microsoft Office",
+          "WordPress",
+          "Google Analytics",
+          "Google Ads",
+          "Google My Business",
+          "Google Search Console",
+          "SEO"
         ]
       }
     ]
