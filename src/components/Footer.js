@@ -18,31 +18,31 @@ class Footer extends Component {
       <footer>
         <div className="container">
           <div className="row">
-            <div className="col social-links">{networks}</div>
+            <div className="col social-links my-5">{networks}</div>
             <div className="col">
               <div 
-                onClick={() =>
-                  this.props.applyPickedLanguage(
-                    window.$primaryLanguage,
-                    window.$secondaryLanguageIconId
-                  )
-                }
+                // onClick={() =>
+                //   this.props.applyPickedLanguage(
+                //     window.$primaryLanguage,
+                //     window.$secondaryLanguageIconId
+                //   )
+                // }
                 style={{ display: "inline" }}
               >
                 <span
-                  className="iconify language-icon mr-5"
-                  data-icon="twemoji-flag-for-flag-mexico"
+                  className="iconify language-icon mr-5 my-5"
+                  data-icon="twemoji-flag-for-flag-canada"
                   data-inline="false"
                   id={window.$primaryLanguageIconId}
                 ></span>
               </div>
               <div 
-                onClick={() =>
-                  this.props.applyPickedLanguage(
-                    window.$secondaryLanguage,
-                    window.$primaryLanguageIconId
-                  )
-                }
+                // onClick={() =>
+                //   this.props.applyPickedLanguage(
+                //     window.$secondaryLanguage,
+                //     window.$primaryLanguageIconId
+                //   )
+                // }
                 style={{ display: "inline" }}
               >
                 <span
@@ -54,8 +54,8 @@ class Footer extends Component {
               </div>
             </div>
             <div className="col">
-              <div className="copyright py-4 text-center">
-                <div className="container">
+              <div className="copyright py-4">
+                <div className="container my-5">
                   <small>
                     Copyright &copy;{" "}
                     {this.props.sharedBasicInfo

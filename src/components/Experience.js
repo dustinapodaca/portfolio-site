@@ -16,14 +16,14 @@ class Experience extends Component {
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            <Badge pill id="pillText" className="main-badge mr-2 mb-2 bg-light text-dark" key={i}>
               {technology}
             </Badge>
           );
         });
         var tech = technologies.map((technology, i) => {
           return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            <Badge pill id="pillText" className="experience-badge mr-4 mb-2 bg-light text-dark" key={i}>
               {technology}
             </Badge>
           );
@@ -33,14 +33,14 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             date={work.years}
             iconStyle={{
-              background: "#AE944F",
+              background: "#c9e8ea",
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className="fab fa-react experience-icon"></i>}
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "4px" }}>
+            <div style={{ textAlign: "left", marginBottom: "4px", }}>
               {mainTech}
             </div>
 
@@ -64,21 +64,21 @@ class Experience extends Component {
 
     return (
       <section id="resume" className="pb-5">
-        <div className="col-md-12 mx-auto">
+        <div id="expDiv" className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1 className="section-title" style={{ color: "black" }}>
-              <span className="text-black" style={{ textAlign: "center" }}>
+              <span className="text-white" style={{ textAlign: "center" }}>
                 {sectionName}
               </span>
             </h1>
           </div>
         </div>
-        <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
+        <div className="col-md-8 mx-auto pt-5 pb-5">
+          <VerticalTimeline className="pt-5">
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#c9e8ea",
                 color: "#fff",
                 textAlign: "center",
               }}

@@ -15,8 +15,14 @@ html {
 	justify-content: center;
 }
 
-.title-container {
+h2 {
 	height: 50px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 0 8px #233d4d;
 }
 
 .title-styles {
@@ -34,19 +40,22 @@ header {
 	height: 520px;
 	min-height: 450px;
 	width: 100%;
-	background-size: cover;
-	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #393939;
+	background-color: #7b929c;
 	background-image: url('../public/images/DApodaca-Banner.jpg');
-	background-blend-mode: screen;
+	// background-blend-mode: overlay;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
+	border-bottom: 25px solid #233d4d;
+}
+
+#home {
+	box-shadow: 0px 5px 100px #233d4d;
 }
 
 header .nav {
@@ -94,13 +103,15 @@ header .nav {
 }
 
 header h1 {
-	font-size: 400%;
+	font-size: 500%;
 	text-align: center;
-	font-weight: 600 !important;
+	letter-spacing: 12px;
+	font-weight: 400 !important;
 	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
+	text-shadow: 0 0 10px #233d4d;
 }
 
 .slider-image {
@@ -122,7 +133,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: #c9e8ea;
 	overflow: hidden;
 }
 
@@ -230,10 +241,6 @@ header h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-#resume {
-	background: #efe1bd;
 }
 
 .experience-icon {
@@ -354,11 +361,6 @@ header h1 {
 	color: black !important;
 }
 
-#portfolio {
-	background: #efe1bd;
-	padding-bottom: 5%;
-}
-
 .portfolio-item {
 	max-width: 100%;
 	margin-bottom: 15px;
@@ -390,12 +392,10 @@ header h1 {
 	}
 }
 
-#skills {
-	background: #1F1F1F;
-	min-height: 200px;
-	width: 100%;
-	overflow: hidden;
-	padding-bottom: 10%;
+.text-center {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
 }
 
 .section-title {
@@ -415,8 +415,41 @@ header h1 {
 	position: relative;
 }
 
+#portfolio {
+	background-color: #c9e8ea;
+	padding-bottom: 5%;
+}
+
+#skills {
+	background-color: #912f40;
+	min-height: 200px;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 10%;
+}
+
+#skillsDiv {
+	padding-left: 325px;
+	padding-right: 325px;
+}
+
+#expDiv {
+	// background-color: #2f4550;
+	background-color: #233d4d;
+}
+
+#resume {
+	background-color: #668192;
+}
+
+#pillText {
+	font-family: 'Helvetica', sans-serif;
+	font-weight: 700;
+}
+
 footer {
-	background: #1F1F1F;
+	background-color: #702632;
+	// background-color: #2f4550;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
